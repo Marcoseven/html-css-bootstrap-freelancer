@@ -1,4 +1,10 @@
 /* common_general_rules */
+.container_major {
+	width: 1170px;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
 /* /common_general_rules */
 
 /* debug */
