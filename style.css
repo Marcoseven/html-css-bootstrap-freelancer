@@ -79,6 +79,7 @@ span,
 .font_20 a {
 	font-size: 20px;
 }
+
 /********** 
 /#SITE_HEADER 
 **********/
@@ -186,6 +187,38 @@ span,
 /* /.about */
 
 /* .contact */
+.contact {
+	padding-bottom: 3rem;
+}
+
+.contact .form-group {
+	margin: 1rem 0;
+}
+
+.form-group input {
+	color: #000;
+	border: none;
+}
+
+.form-group textarea {
+	width: 100%;
+	height: auto;
+	margin: 0 0.5rem;
+	border: none;
+}
+
+.form-group hr {
+	margin: 0 0.5rem;
+}
+
+.contact button {
+	background-color: #1abc9c;
+	border: none;
+}
+
+.btn_contact {
+	text-align: left;
+}
 /* /.contact */
 
 /********** 
@@ -221,7 +254,6 @@ span,
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-
 /* /.location */
 
 /* .copyright */
