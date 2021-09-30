@@ -298,6 +298,11 @@ MEDIA_QUERY
 		height: 80%;
 	}
 	/* .portfolio */
+	/* .about */
+	.about #p_left {
+		margin: 0;
+	}
+	/* /.about */
 }
 /* /media_query_width_min_0px_max_575px */
 
