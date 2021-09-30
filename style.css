@@ -53,3 +53,38 @@
 	background-color: #f0e98a49;
 }
 /* /debug */
+
+/********** 
+#SITE_HEADER 
+**********/
+
+.bg {
+	background-color: #2c3e50 !important;
+}
+
+.color a {
+	color: #fff !important;
+}
+
+.font a {
+	font-size: 20px;
+}
+/********** 
+/#SITE_HEADER 
+**********/
+
+/********** 
+#SITE_MAIN
+**********/
+
+/********** 
+/#SITE_MAIN
+**********/
+
+/********** 
+#SITE_FOOTER
+**********/
+
+/********** 
+/#SITE_FOOTER
+**********/
