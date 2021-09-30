@@ -67,7 +67,8 @@
 
 .color a,
 h1,
-span {
+span,
+.star > i {
 	color: #fff !important;
 }
 
@@ -92,7 +93,7 @@ span {
 }
 
 .jumbotron > .container_major {
-	padding: 5rem 0;
+	padding: 4rem 0;
 }
 
 .jumbotron img {
@@ -100,12 +101,68 @@ span {
 	max-width: 20%;
 }
 
-.star {
-	filter: invert(1);
+.star,
+.star_portfolio {
 	font-size: 25px;
 	padding: 0.5rem 0;
 }
+
+.star > i,
+.star_portfolio > i {
+	margin: 0 1rem;
+}
+
+.star::before,
+.star::after {
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 5px;
+	background-color: #fff;
+	font-size: 25px;
+	border-radius: 10px;
+	margin-bottom: 0.4rem;
+}
 /* /.jumbotron */
+
+/* .portfolio */
+.portfolio {
+	padding-bottom: 5rem;
+}
+
+.portfolio h2 {
+	margin-top: 4rem;
+}
+
+.portfolio img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.star_portfolio::before,
+.star_portfolio::after {
+	content: "";
+	display: inline-block;
+	width: 100px;
+	height: 5px;
+	background-color: #2c3e50;
+	font-size: 25px;
+	border-radius: 10px;
+	margin-bottom: 0.4rem;
+}
+
+/* /.portfolio */
+
+/* .about */
+.about {
+	background-color: #1abc9c;
+	height: auto;
+}
+/* /.about */
+
+/* .contact */
+/* /.contact */
 
 /********** 
 /#SITE_MAIN
@@ -114,6 +171,18 @@ span {
 /********** 
 #SITE_FOOTER
 **********/
+
+/* .location */
+.location {
+	background-color: #3a546d;
+}
+/* /.location */
+
+/* .copyright */
+.copyright {
+	background-color: #2c3e50;
+}
+/* /.copyright */
 
 /********** 
 /#SITE_FOOTER
