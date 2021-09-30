@@ -57,6 +57,7 @@
 /********** 
 #SITE_HEADER 
 **********/
+
 #site_header {
 	background-color: #2c3e50;
 }
@@ -270,4 +271,69 @@ span,
 
 /********** 
 /#SITE_FOOTER
+**********/
+
+/********** 
+MEDIA_QUERY 
+**********/
+
+/* media_query_width_min_0px_max_575px */
+@media screen and (max-width: 575px) {
+	.container_major {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	/* .portfolio */
+	.portfolio .row {
+		flex-wrap: wrap;
+	}
+
+	.portfolio .col {
+		width: 100%;
+	}
+
+	.portfolio .col img {
+		width: 80%;
+		height: 80%;
+	}
+	/* .portfolio */
+}
+/* /media_query_width_min_0px_max_575px */
+
+/* media_query_width_min_576px_max_767px */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	.container_major {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	/* .jumbotron */
+	.jumbotron img {
+		width: auto;
+	}
+
+	/* /.jumbotron */
+
+	/* .portfolio */
+	.portfolio .row {
+		flex-wrap: wrap;
+	}
+
+	.portfolio .col {
+		width: calc(100% / 2);
+	}
+	/* .portfolio */
+
+	/* .about */
+	.about #p_left {
+		margin: 0;
+	}
+	/* /.about */
+}
+/* /media_query_width_min_576px_max_767px */
+
+/********** 
+/MEDIA_QUERY 
 **********/
